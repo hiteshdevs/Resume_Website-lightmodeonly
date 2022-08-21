@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="./Mepic.ico">
+  <title>Hitesh - Resume</title>
+
+  <!-- link CSS -->
+
+
+  <!-- font -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+    .wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 32ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+  </style>
+
+</head>
+
+<body>
+
+<!-- header start -->
+<div class="header-2">
+  <nav class="bg-white py-2 md:py-4 shadow-lg shadow-indigo-500/20">
+    <div class="container px-4 mx-auto md:flex md:items-center">
+
+      <div class="flex justify-between items-center">
+        <img class="inline" src="./img/Mepic.png" height="60px" width="40px">
+      <span class="text-indigo-600" style="margin-left: 10px; font-family: 'Pacifico', cursive; font-size: 40px;">Hitesh</span>
+        <button class="px-3 py-1 rounded text-indigo-700 opacity-50 hover:opacity-75 md:hidden" id="navbar-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse">
+        <a href="./index.html" class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Home</a>
+        <a href="./about.html" class="p-2 lg:px-4 md:mx-2 text-white rounded bg-indigo-600">About Me</a>
+        <a href="./Traininginternships.html" class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Training & Internships</a>
+        <a href="./Achievements.html" class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Achievements</a>
+        <a href="./contactme.html" class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Contact Me</a>
+        <a href="./darkmode.html">
+          <button  style="float: right;" class="p-2 lg:px-4 md:mx-2 text-center text-indigo-500 border border-indigo-500 hover:bg-indigo-500 hover:text-white active:bg-indigo-600 o uppercase rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"
+          >
+           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+          </svg>
+        </button>
+    </a>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- header end -->
+
+<!-- about me -->
+
+<section class="text-gray-600 body-font" style="margin-top:-70px;">
+    <div class="container px-5 py-24 mx-auto flex flex-col">
+      <div class="lg:w-4/6 mx-auto">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://cdn.dribbble.com/users/2401141/screenshots/5487982/developers-gif-showcase.gif">
+        </div>
+        <div class="flex flex-col sm:flex-row mt-10">
+          <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+            <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+              <img src="./img/Mepic.png">
+            </div>
+            <div class="flex flex-col items-center text-center justify-center">
+              <h2 class="font-bold text-2xl title-font mt-4 text-gray-900">Hitesh Bhagwat</h2>
+              <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4 wrapper"></div>
+              <p class="text-xl font-bold typing-demo"><span class="text-indigo-500">Frontend Developer</span> from INDIA🚩</p>
+            </div>
+          </div>
+          <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+            <p class="leading-relaxed text-lg mb-4">Since beginning my journey as a freelance frontend developer over 4 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.
+            </p>
+            
+            <p class="leading-relaxed text-lg mb-4">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academics -->
+  <section class="text-gray-600 body-font" style="margin-top: -100px;">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="px-4 text-center md:w-10/12 xl:w-8/12 mx-auto">
+        <h1 class="title-font sm:text-4xl text-4xl mb-4 font-medium text-gray-900">My <span class="text-indigo-600 hover:text-indigo-300 duration-700">Academics</span>
+        </h1>
+      </div>
+      <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 mt-10 border-gray-200 sm:flex-row flex-col">
+        <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+          <img src="./img/degree.png">
+        </div>
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">BTech. in Artifical Intelligence (AI)</h2>
+            
+            <div>
+              <div class="p-2 rounded-full bg-indigo-200 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+                <span class="flex rounded-full bg-indigo-700 uppercase px-2 py-1 text-xs font-bold mr-3">Pursing</span>
+                <span class="font-semibold mr-2 text-left flex-auto text-gray-700">01 Feb 2021 <span class="font-bold">to</span> Expected <span class="font-bold">2023</span></span>
+              </div>
+            </div>    
+  
+          <p class="leading-relaxed text-base mt-3">G H Raisoni Insitiute of Enginereeing & Technology in <span class="text-indigo-600">BTech</span> in Artfical Intelligence.</p> 
+        </div>
+      </div>
+      <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Diploma in Computer Science (CS)</h2>
+          <div>
+              <div class="p-2 rounded-full bg-indigo-200 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+                <span class="flex rounded-full bg-green-700 uppercase px-2 py-1 text-xs font-bold mr-3">Completed</span>
+                <span class="font-semibold mr-2 text-left flex-auto text-gray-700">01 Aug 2016 <span class="font-bold">to</span> 30 May 2020</span>
+              </div>
+            </div> 
+          <p class="leading-relaxed mt-3 text-base">G H Raisoni Polytechnic & Engineering in Computer Science <span class="text-indigo-600">Diploma</span> in which i completed in.</p>
+          
+        </div>
+        <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+          <img src="./img/degree.png">
+        </div>
+      </div>
+
+      <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 mt-10 border-gray-200 sm:flex-row flex-col">
+        <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+          <img src="./img/degree.png">
+        </div>
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Class 12th - Science Stream (HSC)</h2>
+            
+            <div>
+              <div class="p-2 rounded-full bg-indigo-200 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+                <span class="flex rounded-full bg-green-700 uppercase px-2 py-1 text-xs font-bold mr-3">Completed</span>
+                <span class="font-semibold mr-2 text-left flex-auto text-gray-700">01 Feb 2021 <span class="font-bold">to</span> Expected <span class="font-bold">2023</span></span>
+              </div>
+            </div>    
+  
+          <p class="leading-relaxed text-base mt-3">G H Raisoni Insitiute of Enginereeing & Technology in <span class="text-indigo-600">BTech</span> in Artfical Intelligence.</p> 
+        </div>
+      </div>
+      <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Class 10th (CBSE)</h2>
+          <div>
+              <div class="p-2 rounded-full bg-indigo-200 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+                <span class="flex rounded-full bg-green-700 uppercase px-2 py-1 text-xs font-bold mr-3">Completed</span>
+                <span class="font-semibold mr-2 text-left flex-auto text-gray-700">01 Aug 2016 <span class="font-bold">to</span> 30 May 2020</span>
+              </div>
+            </div> 
+          <p class="leading-relaxed mt-3 text-base">G H Raisoni Polytechnic & Engineering in Computer Science <span class="text-indigo-600">Diploma</span> in which i completed in.</p>
+          
+        </div>
+        <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+          <img src="./img/degree.png">
+        </div>
+      </div>
+     
+    </div>
+  </section>
+
+
+
+
+<img src="./img/hero-devices.svg" class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center mx-auto" height="20px">
+<div>
+  <marquee scrollamount="40" behavior="scroll" direction="left">
+    <h1 class="text-indigo-600 font-bold" style="font-size: 50px; font-family: 'Noto Sans JP', sans-serif;">#FrontEnd <span class="text-red-600">#Backend</span> <span class="text-orange-400">#HTML</span> <span class="text-blue-600">#CSS</span> <span class="text-yellow-500">#JAVASCRIPT</span> <span class="text-purple-500">#Bootstarp</span> <span class="text-cyan-500">#TailwindCSS</span> #FrontEnd <span class="text-red-600">#Backend</span> <span class="text-orange-400">#HTML</span> <span class="text-blue-600">#CSS</span> <span class="text-yellow-500">#JAVASCRIPT</span> <span class="text-purple-500">#Bootstarp</span> <span class="text-cyan-500">#TailwindCSS</span> #FrontEnd <span class="text-red-600">#Backend</span> <span class="text-orange-400">#HTML</span> <span class="text-blue-600">#CSS</span> <span class="text-yellow-500">#JAVASCRIPT</span> <span class="text-purple-500">#Bootstarp</span> <span class="text-cyan-500">#TailwindCSS</span> #FrontEnd <span class="text-red-600">#Backend</span> <span class="text-orange-400">#HTML</span> <span class="text-blue-600">#CSS</span> <span class="text-yellow-500">#JAVASCRIPT</span> <span class="text-purple-500">#Bootstarp</span> <span class="text-cyan 500">#TailwindCSS</span> #FrontEnd <span class="text-red-600">#Backend</span> <span class="text-orange-400">#HTML</span> <span class="text-blue-600">#CSS</span> <span class="text-yellow-500">#JAVASCRIPT</span> <span class="text-purple-500">#Bootstarp</span> <span class="text-cyan-500">#TailwindCSS</span></h1>
+  </marquee>
+</div>
+<hr style="height:10px;"> 
+<footer class="text-gray-600 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <span class="text-2xl font-[Poppins] text-indigo-700 cursor-pointer">
+        <img class="inline" src="./img/Mepic.png" height="60px" width="60px">
+      </span>
+      <span class="text-indigo-600" style="margin-left: 10px; font-family: 'Pacifico', cursive; font-size: 40px;">Hitesh</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Resume —
+      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@hiteshbhagwat97</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span>
+  </div>
+</footer>
+
+<!-- Js Script of this website -->
+  <script>
+    let toggleBtn = document.querySelector("#navbar-toggle");
+    let collapse = document.querySelector("#navbar-collapse");
+
+    toggleBtn.onclick = () => {
+      collapse.classList.toggle("hidden");
+      collapse.classList.toggle("flex");
+    };
+  </script>
+  <a href="https://github.com/hiteshdevs" target="_blank" class="rounded-full w-12 h-12 bg-indigo-300 fixed bottom-0 right-0 flex items-center justify-center text-gray-800 mr-8 mb-8 shadow-sm border-gray-300 border" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+  </svg></a>
+</body>
+</html>

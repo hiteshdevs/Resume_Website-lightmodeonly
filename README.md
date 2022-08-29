@@ -1,7 +1,7 @@
 # Resume_Website-lightmodeonly
 
-code is live on w3spaces.com
-https://hiteshdevs.w3spaces.com/
+code is live on Netlify.com
+https://courageous-chebakia-320075.netlify.app/
 
 
 image
